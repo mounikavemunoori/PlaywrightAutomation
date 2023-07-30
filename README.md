@@ -1,58 +1,58 @@
 # PlaywrightAutomation
 
 ### In this code challenge , I am using playwright with javascript
-# step1:- Create a directory , use below command
+## step1:- Create a directory , use below command
  ```
  mkdir playwrightAutomation
  ```
- # Step2 : Change to created directory, use below command
+ ## Step2 : Change to created directory, use below command
 
  ```
  cd playwrightAutomation
  ```
- # Step3: Install the nodejs in system
+ ## Step3: Install the nodejs in system
  
- # step4: Install the playwright use below command
+ ## step4: Install the playwright use below command
  ```
   npm init playwright
  ```
 
  ##### Below commands will help to run different ways in playwright
- #  Runs the end-to-end tests. 
+ ##  Runs the end-to-end tests. 
  ```npx playwright test
  ```
-#  Starts the interactive UI mode.
+##  Starts the interactive UI mode.
 ```npx playwright test --ui
 ```
-# Runs the tests only on Desktop Chrome. 
+## Runs the tests only on Desktop Chrome. 
 ```npx playwright test --project=chromium
 ```   
-# Runs the tests in a specific file.
+## Runs the tests in a specific file.
 ```
 npx playwright test example
 ```
-# Runs the tests in debug mode.
+## Runs the tests in debug mode.
 ```npx playwright test --debug
 ```
-# Auto generate tests with Codegen.
+## Auto generate tests with Codegen.
   ```npx playwright codegen
   ```
-# Run the tests with headed mode
+## Run the tests with headed mode
 ```
 npx playwright  test --headed
 ```
-# Run the tests with specific file and only on one particular platform use below command
+## Run the tests with specific file and only on one particular platform use below command
 Here Using "Chromium"
 ```
 npx playwright  test --headed --project=chromium tests/sapiaTasks.spec.js
 ```
-# install the faker module use below command
+## Install the faker module use below command
 It is for generate the random words  to answers to the free text questions
 ```
 npm install faker
 ```
 
-# Please update the below piece of code in playwright.config.js
+## Please update the below piece of code in playwright.config.js
 Here Defining the BaseURL for accessing the gloabally in the framework
 ```
  use: {
@@ -63,7 +63,7 @@ Here Defining the BaseURL for accessing the gloabally in the framework
 
 ```
 
-# Increate the timeout in  playwright.config.js
+## Increate the timeout in  playwright.config.js
 I face the timeout issues  in test execution as chatbot app lil bit slow while giving the response
 
 Earlier it had "30000" changed to "300000"
