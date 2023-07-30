@@ -1,5 +1,6 @@
 # PlaywrightAutomation
 
+### In this code challenge , I am using playwright with javascript
 # step1:- Create a directory , use below command
  ```
  mkdir playwrightAutomation
