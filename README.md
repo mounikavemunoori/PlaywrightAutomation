@@ -22,7 +22,8 @@
  ```npx playwright test
  ```
 ##  Starts the interactive UI mode.
-```npx playwright test --ui
+```
+  npx playwright test --ui
 ```
 ## Runs the tests only on Desktop Chrome. 
 ```npx playwright test --project=chromium
