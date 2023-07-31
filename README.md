@@ -33,37 +33,6 @@ Add a GitHub Actions workflow? (y/N) · false
 ```
   Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
 ```
-
- ##### Below commands will help to run different ways in playwright
- #  Runs the end-to-end tests. 
- ```
-  npx playwright test
- ```
-#  Starts the interactive UI mode.
-```
-  npx playwright test --ui
-```
-# Runs the tests only on Desktop Chrome. 
-```
-  npx playwright test --project=chromium
-```   
-# Runs the tests in debug mode.
-```
-  npx playwright test --debug
-```
-# Auto generate tests with Codegen.
-  ```
-    npx playwright codegen
-  ```
-# Run the tests with headed mode
-```
-  npx playwright  test --headed
-```
-# Run the tests with specific file and only on one particular platform use below command
-Here Using "Chromium"
-```
-npx playwright  test --headed --project=chromium tests/sapiaTasks.spec.js
-```
 # Install the faker module use below command
 It is for generate the random words  to answers to the free text questions
 ```
@@ -93,6 +62,37 @@ timeout: 300000,
 ```
   testDir: './tests',
 ```
+ ## Below commands will help to run different ways in playwright
+ #  Runs the end-to-end tests. 
+ ```
+  npx playwright test
+ ```
+#  Starts the interactive UI mode.
+```
+  npx playwright test --ui
+```
+# Runs the tests only on Desktop Chrome. 
+```
+  npx playwright test --project=chromium
+```   
+# Runs the tests in debug mode.
+```
+  npx playwright test --debug
+```
+# Auto generate tests with Codegen.
+  ```
+    npx playwright codegen
+  ```
+# Run the tests with headed mode
+```
+  npx playwright  test --headed
+```
+# Run the tests with specific file and only on one particular platform use below command
+Here Using "Chromium"
+```
+npx playwright  test --headed --project=chromium tests/sapiaTasks.spec.js
+```
+
 
 
 
