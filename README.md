@@ -38,7 +38,6 @@ It is for generate the random words  to answers to the free text questions
 ```
 npm install faker
 ```
-
 ## Please update the below piece of code in playwright.config.js
 Here Defining the BaseURL for accessing the gloabally in the framework
 ```
