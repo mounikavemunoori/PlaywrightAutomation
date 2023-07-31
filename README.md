@@ -16,6 +16,23 @@
  ```
   npm init playwright
  ```
+ ##  Select "Javascript" for below option(Press "Enter" key after selecting the option)
+  ```
+    Do you want to use TypeScript or JavaScript? · JavaScript
+  ```
+ ## Type "tests" instead of e2e for below option(Press "Enter" key after selecting the option)
+  I have created the test scripts under tests folder
+```
+  Where to put your end-to-end tests? · tests
+```
+## Select "false" for below option(Press "Enter" key after selecting the option)
+```
+Add a GitHub Actions workflow? (y/N) · false
+```
+## Select "Y" for below option(Press "Enter" key after selecting the option)
+```
+  Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
+```
 
  ##### Below commands will help to run different ways in playwright
  #  Runs the end-to-end tests. 
@@ -76,5 +93,7 @@ Earlier it had "30000" changed to "300000"
 // Global test timeout (in milliseconds)
 timeout: 300000,
 ```
+
+
 
 
