@@ -1,7 +1,7 @@
 # PlaywrightAutomation
 
 ### In this code challenge , I am using playwright with javascript
-## Step1:- Create a directory , use below command
+## Step1: Create a directory , use below command
  ```
  mkdir playwrightAutomation
  ```
@@ -12,7 +12,7 @@
  ```
  ## Step3: Install the nodejs in system
  
- ## step4: Install the playwright use below command
+ ## Step4: Install the playwright use below command
  ```
   npm init playwright
  ```
@@ -47,10 +47,6 @@ Add a GitHub Actions workflow? (y/N) · false
 ```
   npx playwright test --project=chromium
 ```   
-# Runs the tests in a specific file.
-```
-npx playwright test example
-```
 # Runs the tests in debug mode.
 ```
   npx playwright test --debug
@@ -92,6 +88,10 @@ Earlier it had "30000" changed to "300000"
 ```
 // Global test timeout (in milliseconds)
 timeout: 300000,
+```
+## update the tests folder name in playwright.config.js to run test cases under tests folder
+```
+  testDir: './tests',
 ```
 
 
