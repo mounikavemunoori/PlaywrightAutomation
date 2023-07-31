@@ -89,7 +89,7 @@ Earlier it had "30000" changed to "300000"
 // Global test timeout (in milliseconds)
 timeout: 300000,
 ```
-## update the tests folder name in playwright.config.js to run test cases under tests folder
+## Update the "tests" folder name in playwright.config.js to run test cases under tests folder
 ```
   testDir: './tests',
 ```
