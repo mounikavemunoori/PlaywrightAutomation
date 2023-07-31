@@ -94,12 +94,6 @@ export class SapiaPage extends BrowserUtils {
         await this.waitUntilTypingTextDisAppeared()
     }
 
-    async getDialogtextContentAfterAcceptButton() {
-        const dialogContent = await this.getAllElementText(this.page.locator("//p[text()='Accept']").locator(".."))
-        console.log("valueee of verify content", typeof (dialogContent))
-        return dialogContent
-    }
-
     async enterWordsInFreeTextQuestions(randomWordsList) {
         // Check if variable is an array (list)
         if (Array.isArray(randomWordsList)) {
