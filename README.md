@@ -1,7 +1,7 @@
 # PlaywrightAutomation
 
 ### In this code challenge , I am using playwright with javascript
-## step1:- Create a directory , use below command
+## Step1:- Create a directory , use below command
  ```
  mkdir playwrightAutomation
  ```
@@ -16,7 +16,7 @@
  ```
   npm init playwright
  ```
- ##  Select "Javascript" for below option(Press "Enter" key after selecting the option)
+ ## Select "Javascript" for below option(Press "Enter" key after selecting the option)
   ```
     Do you want to use TypeScript or JavaScript? · JavaScript
   ```
